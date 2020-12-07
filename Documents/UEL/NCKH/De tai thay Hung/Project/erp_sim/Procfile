@@ -1,0 +1,1 @@
+web: gunicorn erp_sim.wsgi --log-file -

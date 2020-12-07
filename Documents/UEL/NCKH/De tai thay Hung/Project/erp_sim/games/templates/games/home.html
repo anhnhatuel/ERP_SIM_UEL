@@ -1,0 +1,116 @@
+{% extends "games/base.html" %}
+{% block content %}
+<div class="container col mt-3">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <div class="card text-white bg-primary mb-3 text-center" style="max-width: 18rem;">
+                          <div class="card-header">Stock</div>
+                          <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                        <div class="col-sm card text-white bg-success mb-3 text-center" style="max-width: 18rem;">
+                          <div class="card-header">Receivables Customer</div>
+                          <div class="card-body">
+                            <h5 class="card-title">500</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                        <div class="col-sm card text-white bg-warning mb-3 text-center" style="max-width: 18rem;">
+                          <div class="card-header">Cash on bank</div>
+                          <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                        <div class="col-sm card text-white bg-info  mb-3 text-center" style="max-width: 18rem;">
+                          <div class="card-header">Total assets</div>
+                          <div class="card-body">
+                            <h5 class="card-title">10</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+                   <!--Cac nut tuong tac-->
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                              <form>
+                              <input type="number" class="form-control col" placeholder="How many product do you want to buy or sell?">
+                              <button type="button" class=" btn btn-primary btn-md">Procurement</button>
+                              <button type="button" class="btn btn-danger btn-md">Fullfillment</button>
+                            </form>
+                          </div>
+                        </div>
+                    <br>
+                    <h1 class="display-6">Day now: 8</h1>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+
+                    <!---->
+                    <h1 class="display-6">Company Status</h1>
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Time</th>
+                          <th scope="col">Company</th>
+                          <th scope="col">Price</th>
+                          <th scope="col">#. Sell(FG00)</th>
+                          <th scope="col">#. Buy(RM00)</th>
+                          <th scope="col">Cash in bank)</th>
+                          <th scope="col">Total Assets</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>1</td>
+                          <td>5 </td>
+                          <td>5 </td>
+                          <td>6 Products</td>
+                          <td>0 </td>
+                          <td>100</td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>2</td>
+                          <td>5 </td>
+                          <td>5 </td>
+                          <td>6 Products</td>
+                          <td>0 </td>
+                          <td>100</td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>3</td>
+                          <td>5 </td>
+                          <td>5 </td>
+                          <td>6 Products</td>
+                          <td>0 </td>
+                          <td>100</td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>4</td>
+                          <td>5 </td>
+                          <td>5 </td>
+                          <td>6 Products</td>
+                          <td>0 </td>
+                          <td>100</td>
+
+                        </tr>
+
+                      </tbody>
+                    </table>
+{% endblock content %}
